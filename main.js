@@ -492,12 +492,12 @@ contact.addEventListener('click',function(){
       <div class="d-flex vh-100 align-items-center">
         <div class="container w-75">
           <div class="row">
-            <div class="mt-4 col-6"><input type="text" class="form-control" placeholder="Enter Your Name"></div>
-            <div class="mt-4 col-6"><input type="text" class="form-control" placeholder="Enter Your Email"></div>
-            <div class="mt-4 col-6"><input type="text" class="form-control" placeholder="Enter Your Phone"></div>
-            <div class="mt-4 col-6"><input type="text" class="form-control" placeholder="Enter Your Age"></div>
-            <div class="mt-4 col-6"><input type="text" class="form-control" placeholder="Enter Your Password"></div>
-            <div class="mt-4 col-6"><input type="text" class="form-control" placeholder="Repassword"></div>
+            <div class="mt-4 col-md-6"><input type="text" class="form-control" placeholder="Enter Your Name"></div>
+            <div class="mt-4 col-md-6"><input type="text" class="form-control" placeholder="Enter Your Email"></div>
+            <div class="mt-4 col-md-6"><input type="text" class="form-control" placeholder="Enter Your Phone"></div>
+            <div class="mt-4 col-md-6"><input type="text" class="form-control" placeholder="Enter Your Age"></div>
+            <div class="mt-4 col-md-6"><input type="text" class="form-control" placeholder="Enter Your Password"></div>
+            <div class="mt-4 col-md-6"><input type="text" class="form-control" placeholder="Repassword"></div>
 
           </div>
           <div class="d-flex justify-content-center mt-3 "><button type="button" class=" rounded-3 submit ">

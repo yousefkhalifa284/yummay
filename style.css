@@ -1,0 +1,199 @@
+nav{
+  width: 325px;
+  left: -255px;
+  transition: all .5s;
+  z-index: 333;
+}
+
+nav.open{
+  left: 0;
+} 
+
+.navbar{
+  width: 75px;
+}
+
+body{
+  background-color: black;
+}
+
+
+
+.list span {
+  display: block;
+  width: 29px;
+  height: 4px;
+  background: #000;
+  margin: 2px 0;
+  border-radius: 4px;
+}
+
+.list{
+  cursor: pointer;
+}
+
+.icon i {
+  cursor: pointer;
+}
+
+.slide-bar{
+  /* left: -255px; */
+  width: 255px;
+  background-color: black;
+  color: white;
+}
+
+.menu-items {
+ list-style: none;
+ overflow: hidden;
+}
+
+.menu-items li{
+  
+  margin: 16px 0 ;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 1.5s;
+}
+
+.animation li {
+transform: translatey(100px);
+}
+
+.close i {
+  font-size: 45px;
+  color: black;
+  font-weight: 600;
+}
+
+.home-item{
+  height: 261px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .home-item::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.737);
+  border-radius: 0.5rem;
+  transition: all 0.7s;
+  
+} */
+
+.home-item:hover .cover-img{
+  top: 0;
+}
+
+.cover-img{
+  position: absolute;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.737);
+  border-radius: 0.5rem;
+  transition: all 0.7s;
+}
+
+.cover-img h3{
+  color: black;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+input::placeholder{
+  color: #66757D !important;
+}
+
+.info{
+  color: RGB(249, 246, 246);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.info span{
+    color: RGB(249, 246, 246);
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.recipes{
+  background-color: #CFF4FC;
+  color: RGB(5, 81, 96);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.categories{
+  position: relative;
+  overflow: hidden;
+  height: 171px;
+}
+
+.categories-cover{
+  position: absolute;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.737);
+  border-radius: 0.5rem;
+  transition: all 0.7s;
+}
+
+.categories:hover .categories-cover{
+top: 0;
+}
+
+.categories h3{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.categories p{
+  font-size: 16px;
+  font-weight: 400;  
+}
+
+.area i{
+  font-size: 65px;
+  color: white;
+}
+
+.area h3{
+  color: RGB(249, 246, 246);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.area{
+  cursor: pointer;
+}
+
+.ingredients{
+  height: 261px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.ingredients i {
+    font-size: 65px;
+  color: white;
+}
+
+.ingredients h3{
+color: RGB(249, 246, 246);
+  font-size: 28px;
+  font-weight: 500;
+}
+.submit{
+  padding: 7px 9px;
+background-color: transparent ; 
+color: #782129;
+border: solid 1px #782129;
+}
